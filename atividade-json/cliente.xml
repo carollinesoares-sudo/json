@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cliente>
+    <id>1</id>
+    <nome>Alice Silva</nome>
+    <cpf>123.456.789-09</cpf>
+    <email>alice@email.com</email>
+    <telefone>19993268544</telefone>
+    <ativo>true</ativo>
+    <data_cadastro>2025-01-10</data_cadastro>
+    <pontuacao>150</pontuacao>
+
+    <endereco>
+        <rua>Rua dos Jasmins</rua>
+        <numero>123</numero>
+        <bairro>Jardim Primavera</bairro>
+        <cidade>Americana</cidade>
+        <estado>SP</estado>
+        <cep>13465-000</cep>
+    </endereco>
+
+    <preferencias>
+        <receber_promocoes>true</receber_promocoes>
+        <categorias>
+            <categoria>eletronicos</categoria>
+            <categoria>acessorios</categoria>
+        </categorias>
+    </preferencias>
+</cliente>

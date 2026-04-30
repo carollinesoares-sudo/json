@@ -1,0 +1,24 @@
+{
+  "cliente": {
+    "id": 1,
+    "nome": "Alice Silva",
+    "cpf": "123.456.789-09",
+    "email": "alice@email.com",
+    "telefone": "19993268544",
+    "ativo": true,
+    "data_cadastro": "2025-01-10",
+    "pontuacao": 150,
+    "endereco": {
+      "rua": "Rua dos Jasmins",
+      "numero": 123,
+      "bairro": "Jardim Primavera",
+      "cidade": "Americana",
+      "estado": "SP",
+      "cep": "13465-000"
+    },
+    "preferencias": {
+      "receber_promocoes": true,
+      "categorias": ["eletronicos", "acessorios"]
+    }
+  }
+}

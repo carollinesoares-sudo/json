@@ -1,0 +1,20 @@
+{
+  "alunos": [
+    {
+      "nome": "Maria Silva",
+      "telefone": "19999999999"
+    },
+    {
+      "nome": "João Souza",
+      "telefone": "19988888888"
+    },
+    {
+      "nome": "Ana Pereira",
+      "telefone": "19977777777"
+    },
+    {
+      "nome": "Carlos Mendes",
+      "telefone": "19966666666"
+    }
+  ]
+}

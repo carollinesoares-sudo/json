@@ -1,0 +1,41 @@
+{
+  "pedido": {
+    "id_pedido": 1001,
+    "data": "2026-04-14",
+    "status": "enviado",
+    "valor_total": 299.00,
+    "frete": 14.00,
+    "pagamento_confirmado": true,
+    "cliente": {
+      "nome": "Alice Silva",
+      "id_cliente": 1
+    },
+    "endereco_entrega": {
+      "rua": "Rua dos Jasmins",
+      "numero": 123,
+      "cidade": "Americana",
+      "estado": "SP",
+      "cep": "13465-000"
+    },
+    "itens": [
+      {
+        "produto_id": 10,
+        "nome": "Fone Bluetooth",
+        "quantidade": 1,
+        "preco": 199.00
+      },
+      {
+        "produto_id": 20,
+        "nome": "Carregador",
+        "quantidade": 1,
+        "preco": 100.00
+      }
+    ],
+    "pagamento": {
+      "forma": "cartao",
+      "parcelas": 2,
+      "aprovado": true
+    },
+    "peso_total_kg": 1.2
+  }
+}

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido>
+    <id_pedido>1001</id_pedido>
+    <data>2026-04-14</data>
+    <status>enviado</status>
+    <valor_total>299.00</valor_total>
+    <frete>14.00</frete>
+    <pagamento_confirmado>true</pagamento_confirmado>
+
+    <cliente>
+        <id_cliente>1</id_cliente>
+        <nome>Alice Silva</nome>
+    </cliente>
+
+    <endereco_entrega>
+        <rua>Rua dos Jasmins</rua>
+        <numero>123</numero>
+        <cidade>Americana</cidade>
+        <estado>SP</estado>
+        <cep>13465-000</cep>
+    </endereco_entrega>
+
+    <itens>
+        <item>
+            <produto_id>10</produto_id>
+            <nome>Fone Bluetooth</nome>
+            <quantidade>1</quantidade>
+            <preco>199.00</preco>
+        </item>
+        <item>
+            <produto_id>20</produto_id>
+            <nome>Carregador</nome>
+            <quantidade>1</quantidade>
+            <preco>100.00</preco>
+        </item>
+    </itens>
+
+    <pagamento>
+        <forma>cartao</forma>
+        <parcelas>2</parcelas>
+        <aprovado>true</aprovado>
+    </pagamento>
+
+    <peso_total_kg>1.2</peso_total_kg>
+</pedido>
